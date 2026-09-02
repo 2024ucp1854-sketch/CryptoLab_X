@@ -3,7 +3,7 @@
 #include <string>
 
 using namespace std;
-
+// changes made by me
 // Function declarations
 
 string encrypt_text(const string& plaintext, const string& key);
