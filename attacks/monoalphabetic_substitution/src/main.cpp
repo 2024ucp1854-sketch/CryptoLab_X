@@ -98,11 +98,8 @@ bool verify_solution(
 }
 int main() {
 
-    string plaintext_file =
-        "../data/plaintext.txt";
-
-    string ciphertext_file =
-        "../data/ciphertext.txt";
+  string plaintext_file = "data/plaintext.txt";
+  string ciphertext_file = "data/ciphertext.txt";
 
     string plaintext =
         read_file(plaintext_file);
